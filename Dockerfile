@@ -18,3 +18,5 @@ RUN mkdir -p /home/jovyan/.ipython/profile_default &&\
 
 RUN mamba install -c conda-forge -y \
     xarray
+
+ADD Untitles.ipynb /home/jovyan/work/
